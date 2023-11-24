@@ -54,7 +54,7 @@ const homeBooks ={
         {
             title:"Travel",
             details:"Plan your next adventure or embark on a virtual journey with our travel guides and travel narratives. Explore the beauty and diversity of our world from the comfort of your reading nook.",
-            img: 'http://ileadstreetlibrary.com/wp-content/uploads/2019/04/5-Best-Travel-Guide-Books-for-India.jpg'        
+            img: 'https://media.glamourmagazine.co.uk/photos/619e21db8bcc384f2765ab53/16:9/w_1920%2Cc_limit/TRAVELBOOKS241121_DEFAULT2.jpg'        
         },
         {
             title:"Art and Photography",
