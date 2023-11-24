@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `books`
 --
 
-CREATE TABLE `booksList` (
+CREATE TABLE `books` (
   `id` int(11) NOT NULL,
   `title` varchar(300) NOT NULL,
   `desc` varchar(500) NOT NULL,
@@ -39,7 +39,7 @@ CREATE TABLE `booksList` (
 -- Dumping data for table `books`
 --
 
-INSERT INTO `booksList` (`id`, `title`, `desc`, `price`, `cover`) VALUES
+INSERT INTO `books` (`id`, `title`, `desc`, `price`, `cover`) VALUES
 (1, 'Mahabharat', 'The Mahabharata, one of Indias two major Sanskrit epics, chronicles the Kurukshetra War, a clash between two royal cousins, the Pandavas and the Kauravas. Rich in philosophical discussions and mythological stories, it is a literary treasure.', 99, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0wmWzvygc_MvbbKMN0b-Tz0aPE-URnlDa58WRnqDIbdQs-6cq'),
 (2, 'Ramayana', 'The Ramayana, an ancient Sanskrit epic, recounts the life of Rama, an exiled prince who rescues his wife Sita from the demon king Ravana, establishing a reign of righteousness. It remains a revered masterpiece of Indian literature.', 99, 'https://cdn.kobo.com/book-images/b0870569-2c21-49f5-b33f-15acacdd3562/353/569/90/False/india-s-epic-ramayana-for-the-youth-and-kids.jpg'),
 (3, 'The Art of Happiness', 'In "The Art of Happiness, the Dalai Lama shares his insights on cultivating inner peace and lasting happiness in our daily lives.', 79, 'https://m.media-amazon.com/images/I/81iL+zKO7AL._SL1500_.jpg'),
@@ -59,7 +59,7 @@ INSERT INTO `booksList` (`id`, `title`, `desc`, `price`, `cover`) VALUES
 --
 -- Indexes for table `books`
 --
-ALTER TABLE `booksList`
+ALTER TABLE `books`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -69,7 +69,7 @@ ALTER TABLE `booksList`
 --
 -- AUTO_INCREMENT for table `books`
 --
-ALTER TABLE `booksList`
+ALTER TABLE `books`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
